@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/sitemap.xml
+Sitemap: https://aznovel.github.io/sitemap.xml
 
 # AZNovel main site
 # https://aznovel.com
