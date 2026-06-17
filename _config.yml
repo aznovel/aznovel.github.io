@@ -1,0 +1,43 @@
+# ================================================
+# _config.yml — Main Jekyll Configuration
+# EDIT values marked with ← CHANGE THIS
+# ================================================
+
+title: "AZNovel Digital"                          # ← CHANGE THIS if needed
+description: "Premium digital novels by AZNovel. Instant download after purchase."
+url: "https://YOUR-USERNAME.github.io"            # ← CHANGE THIS: your GitHub Pages URL
+baseurl: ""
+lang: "en"
+
+author:
+  name: "AZNovel"
+  email: "your@email.com"                         # ← CHANGE THIS
+
+# Main website reference
+main_site:
+  url: "https://aznovel.com"
+  name: "AZNovel"
+  label: "Main Store"
+
+# Each product URL: your-site.com/products/title-slug/
+permalink: /products/:slug/
+
+# GitHub Pages supported plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# All files in /products/ auto-use the novel layout
+defaults:
+  - scope:
+      path: "products"
+    values:
+      layout: "novel"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - generate_md.py
+  - daftar_novel.xlsx
+  - "*.sh"

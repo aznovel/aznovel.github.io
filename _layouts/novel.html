@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══════════════════════════════════════
+       CORE SEO
+  ═══════════════════════════════════════ -->
+  <title>{{ page.title }} — Buy Digital Novel | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | strip_html | truncate: 155 }}">
+  <meta name="keywords" content="{{ page.tags | join: ', ' }}, digital novel, ebook, {{ page.genre }}, buy novel online, instant download">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="{{ site.author.name }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- ═══════════════════════════════════════
+       OPEN GRAPH — WhatsApp / Facebook preview
+  ═══════════════════════════════════════ -->
+  <meta property="og:type" content="book">
+  <meta property="og:title" content="{{ page.title }} — Digital Novel">
+  <meta property="og:description" content="{{ page.description | strip_html | truncate: 160 }}">
+  <meta property="og:image" content="{{ page.cover }}">
+  <meta property="og:image:width" content="400">
+  <meta property="og:image:height" content="600">
+  <meta property="og:image:alt" content="{{ page.title }} book cover">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="book:author" content="{{ site.author.name }}">
+  <meta property="book:tag" content="{{ page.genre }}">
+
+  <!-- ═══════════════════════════════════════
+       TWITTER CARD
+  ═══════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }} — Digital Novel">
+  <meta name="twitter:description" content="{{ page.description | strip_html | truncate: 155 }}">
+  <meta name="twitter:image" content="{{ page.cover }}">
+
+  <!-- ═══════════════════════════════════════
+       SCHEMA.ORG JSON-LD
+       Enables rich results on Google (price, availability, etc.)
+  ═══════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Book",
+        "@id": "{{ page.url | absolute_url }}#book",
+        "name": "{{ page.title }}",
+        "description": "{{ page.description | strip_html | strip_newlines | truncate: 300 }}",
+        "image": "{{ page.cover }}",
+        "genre": "{{ page.genre }}",
+        "inLanguage": "en",
+        "bookFormat": "https://schema.org/EBook",
+        "publisher": {
+          "@type": "Organization",
+          "name": "AZNovel",
+          "url": "https://aznovel.com"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "{{ page.checkout_url }}",
+          "price": "{{ page.price_promo | default: page.price }}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2099-12-31"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "AZNovel", "item": "https://aznovel.com" },
+          { "@type": "ListItem", "position": 2, "name": "{{ page.genre }}", "item": "{{ site.url }}/genre/{{ page.genre | slugify }}" },
+          { "@type": "ListItem", "position": 3, "name": "{{ page.title }}", "item": "{{ page.url | absolute_url }}" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="{{ '/assets/css/novel.css' | relative_url }}">
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════
+       ANNOUNCEMENT STRIP — aznovel.com
+  ═══════════════════════════════════ -->
+  <div class="az-strip">
+    <span>🌐 Part of</span>
+    <a href="https://aznovel.com" target="_blank" rel="noopener" class="az-strip-link">
+      AZNovel.com
+    </a>
+    <span class="az-strip-sep">·</span>
+    <a href="https://aznovel.com" target="_blank" rel="noopener" class="az-strip-visit">
+      Visit Main Store →
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       TOPBAR
+  ═══════════════════════════════════ -->
+  <nav class="topbar" role="navigation">
+    <a href="{{ site.url }}" class="brand" title="{{ site.title }}">📚 {{ site.title }}</a>
+    <div class="topbar-right">
+      <a href="https://aznovel.com" target="_blank" rel="noopener" class="az-btn" title="AZNovel Main Store">
+        🌐 AZNovel.com
+      </a>
+      <a href="{{ site.url }}/products/" class="browse-btn">Browse All</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════
+       BREADCRUMB
+  ═══════════════════════════════════ -->
+  <div class="breadcrumb" aria-label="Breadcrumb">
+    <div class="wrap">
+      <a href="https://aznovel.com" target="_blank" rel="noopener">AZNovel.com</a>
+      <span>›</span>
+      <a href="{{ site.url }}/genre/{{ page.genre | slugify }}">{{ page.genre }}</a>
+      <span>›</span>
+      <span aria-current="page">{{ page.title }}</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       MAIN
+  ═══════════════════════════════════ -->
+  <main class="wrap" id="content">
+    <article itemscope itemtype="https://schema.org/Book">
+
+      <!-- ─── HERO ─── -->
+      <section class="hero">
+
+        <!-- Cover Column -->
+        <div class="cover-col">
+          {% if page.price_promo %}
+          <div class="ribbon">SALE</div>
+          {% endif %}
+          <div class="book-wrap">
+            <img
+              src="{{ page.cover }}"
+              alt="{{ page.title }} — digital novel cover"
+              class="cover-img"
+              width="300"
+              height="450"
+              loading="eager"
+              itemprop="image"
+            >
+          </div>
+          <div class="format-tag" aria-label="File format">
+            {% if page.file_type == "PDF & EPUB" %}
+            📄 PDF &amp; 📖 EPUB
+            {% else %}
+            📄 PDF
+            {% endif %}
+          </div>
+        </div>
+
+        <!-- Info Column -->
+        <div class="info-col">
+
+          <!-- Genre -->
+          <a href="{{ site.url }}/genre/{{ page.genre | slugify }}" class="genre-pill" itemprop="genre">
+            {{ page.genre }}
+          </a>
+
+          <!-- Title -->
+          <h1 class="book-title" itemprop="name">{{ page.title }}</h1>
+
+          <!-- Short description preview -->
+          <p class="book-excerpt">
+            {{ page.description | strip_html | truncate: 180 }}
+          </p>
+
+          <!-- ─── PRICE BOX ─── -->
+          <div class="price-box" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="USD">
+            <meta itemprop="availability" content="https://schema.org/InStock">
+            <meta itemprop="url" content="{{ page.checkout_url }}">
+
+            {% if page.price_promo %}
+              {% assign orig = page.price | times: 100 | round %}
+              {% assign promo = page.price_promo | times: 100 | round %}
+              {% assign diff = orig | minus: promo %}
+              {% assign pct = diff | times: 100 | divided_by: orig %}
+              <meta itemprop="price" content="{{ page.price_promo }}">
+
+              <div class="offer-banner">🔥 Limited Time Offer</div>
+              <div class="price-row">
+                <span class="price-original" aria-label="Original price">${{ page.price }}</span>
+                <span class="save-badge">SAVE {{ pct }}%</span>
+              </div>
+              <div class="price-promo" aria-label="Sale price">
+                ${{ page.price_promo }}
+              </div>
+            {% else %}
+              <meta itemprop="price" content="{{ page.price }}">
+              <div class="price-regular" aria-label="Price">
+                ${{ page.price }}
+              </div>
+            {% endif %}
+
+            <!-- CTA -->
+            <a
+              href="{{ page.checkout_url }}"
+              class="btn-buy"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Buy {{ page.title }}{% if page.price_promo %} for ${{ page.price_promo }}{% else %} for ${{ page.price }}{% endif %}"
+            >
+              🛒 Buy Now —
+              {% if page.price_promo %}${{ page.price_promo }}{% else %}${{ page.price }}{% endif %}
+            </a>
+
+            <!-- Trust Signals -->
+            <div class="trust-grid">
+              <div class="trust-item">✅ Instant Download</div>
+              <div class="trust-item">🔒 Secure Payment</div>
+              <div class="trust-item">📧 Emailed to You</div>
+              <div class="trust-item">♾️ Lifetime Access</div>
+            </div>
+
+            {% if page.product_url %}
+            <!-- Secondary: Product page link -->
+            <div class="product-url-row">
+              <span class="product-url-label">Want to learn more first?</span>
+              <a
+                href="{{ page.product_url }}"
+                class="product-url-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View {{ page.title }} on AZNovel.com"
+              >View product page on AZNovel.com →</a>
+            </div>
+            {% endif %}
+          </div>
+
+          <!-- What You Get -->
+          <div class="wyg-box">
+            <div class="wyg-title">What You Get</div>
+            <div class="wyg-items">
+              <div class="wyg-item">
+                {% if page.file_type == "PDF & EPUB" %}
+                <span class="wyg-icon">📄</span>
+                <span>PDF file — read anywhere</span>
+              </div>
+              <div class="wyg-item">
+                <span class="wyg-icon">📖</span>
+                <span>EPUB file — perfect for e-readers</span>
+                {% else %}
+                <span class="wyg-icon">📄</span>
+                <span>PDF file — read on any device</span>
+                {% endif %}
+              </div>
+              <div class="wyg-item">
+                <span class="wyg-icon">📱</span>
+                <span>Compatible with phone, tablet &amp; PC</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ─── DESCRIPTION ─── -->
+      <section class="description-section">
+        <h2>About This Book</h2>
+        <div class="description-text" itemprop="description">
+          {{ page.description }}
+        </div>
+      </section>
+
+      <!-- ─── BOTTOM CTA (repeated for long descriptions) ─── -->
+      <section class="bottom-cta">
+        <div class="bottom-cta-inner">
+          <div class="bottom-cta-text">
+            <strong>Ready to start reading?</strong>
+            <span>Get your copy instantly — download right after purchase.</span>
+          </div>
+          <div class="bottom-cta-right">
+            {% if page.price_promo %}
+            <div class="bottom-price">
+              <span class="bottom-original">${{ page.price }}</span>
+              <span class="bottom-promo">${{ page.price_promo }}</span>
+            </div>
+            {% else %}
+            <div class="bottom-price">
+              <span class="bottom-promo">${{ page.price }}</span>
+            </div>
+            {% endif %}
+            <a
+              href="{{ page.checkout_url }}"
+              class="btn-buy btn-buy--sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >🛒 Get Your Copy</a>
+          </div>
+        </div>
+        {% if page.product_url %}
+        <div class="bottom-product-url">
+          <a href="{{ page.product_url }}" target="_blank" rel="noopener noreferrer">
+            View full product details on AZNovel.com →
+          </a>
+        </div>
+        {% endif %}
+      </section>
+
+      <!-- ─── TAGS ─── -->
+      {% if page.tags %}
+      <section class="tags-section" aria-label="Tags">
+        {% for tag in page.tags %}
+        <a href="{{ site.url }}/tag/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+    </article>
+  </main>
+
+  <!-- ═══════════════════════════════════
+       STICKY MOBILE CTA
+  ═══════════════════════════════════ -->
+  <div class="mobile-bar" aria-label="Quick buy bar">
+    <div class="mb-price">
+      {% if page.price_promo %}
+      <span class="mb-orig">${{ page.price }}</span>
+      <span class="mb-promo">${{ page.price_promo }}</span>
+      {% else %}
+      <span class="mb-promo">${{ page.price }}</span>
+      {% endif %}
+    </div>
+    <a
+      href="{{ page.checkout_url }}"
+      class="mb-btn"
+      target="_blank"
+      rel="noopener noreferrer"
+    >🛒 Buy Now</a>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="wrap footer-inner">
+
+      <div class="footer-brand">
+        <a href="https://aznovel.com" class="footer-logo" target="_blank" rel="noopener">
+          🌐 AZNovel.com
+        </a>
+        <p class="footer-tagline">Your #1 destination for premium digital novels.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://aznovel.com" target="_blank" rel="noopener">Main Store</a>
+        <a href="{{ site.url }}/products/">All Novels</a>
+        <a href="https://aznovel.com/contact" target="_blank" rel="noopener">Contact</a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      © {{ site.time | date: "%Y" }}
+      <a href="https://aznovel.com" target="_blank" rel="noopener">AZNovel.com</a>
+      — All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
