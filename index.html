@@ -278,7 +278,10 @@ layout: null
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      text-decoration: none;
+      transition: color .15s;
     }
+    .card-title:hover { color: var(--blue); text-decoration: underline; }
 
     .card-price {
       margin-top: auto;
@@ -594,7 +597,7 @@ layout: null
             </a>
             <div class="card-body">
               <div class="card-genre">${escHtml(n.genre || '')}</div>
-              <div class="card-title">${escHtml(n.title)}</div>
+              <a href="${n.url}" class="card-title">${escHtml(n.title)}</a>
               <div class="card-price">${price}</div>
             </div>
             <a href="${n.url}" class="card-buy">🛒 Buy Now</a>
