@@ -1,7 +1,7 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "After-Sundown (dap Saeng Rawi) Novel - English PDF | Thai BL Novel"
 
 description: |
   ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
@@ -15,7 +15,7 @@ description: |
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
+  📚 Title   : After-Sundown (dap Saeng Rawi)
   🎭 Genre   : Thai BL Novel
   💾 Format  : PDF
   🌍 Language: English
@@ -54,15 +54,15 @@ description: |
 
 genre: "Thai BL Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/After-Sundown%20%28dap%20Saeng%20Rawi%29/After-Sundown_dap_Saeng_Rawi-1.png"
 
 file_type: "PDF"
 
 price: "4"
 price_promo: "2"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=EULsz"
+product_url: "https://payhip.com/b/EULsz"
 tags:
   - "light novel"
   - "web novel"

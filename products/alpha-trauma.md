@@ -1,23 +1,23 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "Alpha Trauma Novel - English EPUB, PDF | Korean BLGL"
 
 description: |
-  ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
+  ✨ Emotional same-sex romance from South Korea 🇰🇷 — heartfelt stories for BL & GL manhwa fans.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📌 DIGITAL PRODUCT — INSTANT DOWNLOAD
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  This is a digital E-book (PDF) — not a physical printed book.
+  This is a digital E-book (PDF & EPUB) — not a physical printed book.
   No shipping required. Your files are available immediately after purchase.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
-  🎭 Genre   : Thai BL Novel
-  💾 Format  : PDF
+  📚 Title   : Alpha Trauma
+  🎭 Genre   : Korean BL/GL Novel
+  💾 Format  : PDF & EPUB
   🌍 Language: English
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -50,31 +50,31 @@ description: |
   🏷️ TAGS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
-  #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
+  #KoreanBLNovel #KoreanGLNovel #KoreanBoysLove #KoreanGirlsLove #KoreanYaoi #KoreanYuri #LGBTQNovel
 
-genre: "Thai BL Novel"
+genre: "Korean BLGL Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573009/KOREAN%20BLGL/Alpha%20Trauma/Alpha_Trauma-1.jpg"
 
-file_type: "PDF"
+file_type: "PDF & EPUB"
 
-price: "4"
-price_promo: "2"
+price: "5"
+price_promo: "2.5"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=R4X5i"
+product_url: "https://payhip.com/b/R4X5i"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
-  - "novel"
+  - "graphic novels"
+  - "danmei novel"
   - "story"
-  - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
-  - "thai novel"
-  - "yaoi"
+  - "fiction"
+  - "korean bl"
+  - "korean novel"
+  - "boys love"
   - "romance novel"
+  - "manhwa"
   - "ebook"
 ---

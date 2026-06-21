@@ -1,23 +1,23 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "An Autumn in Amber, a Zero-Second Journet Novel - English EPUB, PDF | Japanese Light Novel"
 
 description: |
-  ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
+  ✨ From anime-inspired light novels to Japanese literary classics 🇯🇵 — perfect for anime & manga fans.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📌 DIGITAL PRODUCT — INSTANT DOWNLOAD
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  This is a digital E-book (PDF) — not a physical printed book.
+  This is a digital E-book (PDF & EPUB) — not a physical printed book.
   No shipping required. Your files are available immediately after purchase.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
-  🎭 Genre   : Thai BL Novel
-  💾 Format  : PDF
+  📚 Title   : An Autumn in Amber, a Zero-Second Journet
+  🎭 Genre   : Japanese Novel
+  💾 Format  : PDF & EPUB
   🌍 Language: English
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -35,7 +35,7 @@ description: |
   🤖 Android           → Lithium, Moon+ Reader, Google Play Books
   💻 PC / Mac / Laptop → Calibre, Adobe Digital Editions, Sigil
   
-  💡 Note: This is a text-based novel — not a manga or manhwa.
+  💡 Note: This is a text-based Light Novel — not a manga or manhwa.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   ✨ MORE FROM OUR STORE
@@ -50,31 +50,31 @@ description: |
   🏷️ TAGS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
-  #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
+  #JapaneseNovel #JapaneseFiction #JapaneseLightNovel #LightNovel #JapaneseLiterature #AnimeLightNovel #AsianFiction
 
-genre: "Thai BL Novel"
+genre: "Japanese Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781572998/JAPAN/An%20Autumn%20in%20Amber%2C%20a%20Zero-Second%20Journet/An_Autumn_in_Amber_a_Zero-Second_Journet-1.jpg"
 
-file_type: "PDF"
+file_type: "PDF & EPUB"
 
-price: "4"
-price_promo: "2"
+price: "5"
+price_promo: "2.5"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=FhfXB"
+product_url: "https://payhip.com/b/FhfXB"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
+  - "graphic novels"
   - "novel"
   - "story"
-  - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
-  - "thai novel"
-  - "yaoi"
-  - "romance novel"
+  - "fiction"
+  - "literature"
+  - "digital"
+  - "japanese novel"
+  - "manga"
+  - "manhwa"
   - "ebook"
 ---

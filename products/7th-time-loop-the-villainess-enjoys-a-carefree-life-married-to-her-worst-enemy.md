@@ -1,23 +1,23 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "7th Time Loop_ The Villainess Enjoys a Carefree Life Married to Her Worst Enemy Novel - English EPUB, PDF | DANMEI | Boys Love Novel"
 
 description: |
-  ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
+  ✨ Beautifully written Chinese boys love fiction 🇨🇳 — emotional, immersive, and deeply moving.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📌 DIGITAL PRODUCT — INSTANT DOWNLOAD
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  This is a digital E-book (PDF) — not a physical printed book.
+  This is a digital E-book (PDF & EPUB) — not a physical printed book.
   No shipping required. Your files are available immediately after purchase.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
-  🎭 Genre   : Thai BL Novel
-  💾 Format  : PDF
+  📚 Title   : 7th Time Loop_ The Villainess Enjoys a Carefree Life Married to Her Worst Enemy
+  🎭 Genre   : Danmei Novel
+  💾 Format  : PDF & EPUB
   🌍 Language: English
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -35,7 +35,7 @@ description: |
   🤖 Android           → Lithium, Moon+ Reader, Google Play Books
   💻 PC / Mac / Laptop → Calibre, Adobe Digital Editions, Sigil
   
-  💡 Note: This is a text-based novel — not a manga or manhwa.
+  💡 Note: This is a text-based Danmei novel (Chinese BL fiction) — not a manga or manhua.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   ✨ MORE FROM OUR STORE
@@ -50,31 +50,31 @@ description: |
   🏷️ TAGS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
-  #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
+  #DanmeiNovel #Danmei #ChineseBLNovel #ChineseBoysLove #CNovelBL #ChineseYaoi #MoDaoZuShi #HeavenOfficialBlessing #ChineseBL #AsianBL #BLNovel #CDramaNovel
 
-genre: "Thai BL Novel"
+genre: "Danmei Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781572976/CHINESE%20DANMEI/7th%20Time%20Loop_%20The%20Villainess%20Enjoys%20a%20Carefree%20Life%20Married%20to%20Her%20Worst%20Enemy/7th_Time_Loop__The_Villainess_Enjoys_a_Carefree_Life_Married_to_Her_Worst_Enemy-1.jpg"
 
-file_type: "PDF"
+file_type: "PDF & EPUB"
 
-price: "4"
-price_promo: "2"
+price: "5"
+price_promo: "2.5"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=Chqlp"
+product_url: "https://payhip.com/b/Chqlp"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
   - "novel"
   - "story"
-  - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
-  - "thai novel"
-  - "yaoi"
+  - "fiction"
+  - "literature"
+  - "digital novel"
+  - "manga"
+  - "webnovel cn"
+  - "boys love"
   - "romance novel"
   - "ebook"
 ---

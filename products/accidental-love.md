@@ -1,10 +1,10 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "Accidental_Love Novel - English EPUB, PDF | Chinese Novel"
 
 description: |
-  ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
+  ✨ Epic wuxia, xianxia cultivation, danmei, and sweet Chinese romance 🇨🇳 — the best C-Novel experience.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📌 DIGITAL PRODUCT — INSTANT DOWNLOAD
@@ -15,8 +15,8 @@ description: |
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
-  🎭 Genre   : Thai BL Novel
+  📚 Title   : Accidental_Love
+  🎭 Genre   : Chinese Novel
   💾 Format  : PDF
   🌍 Language: English
   
@@ -50,31 +50,31 @@ description: |
   🏷️ TAGS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
-  #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
+  #ChineseNovel #CNovel #ChineseFiction #Wuxia #Xianxia #Danmei #ChineseRomance #CDramaNovel #ChineseEbook
 
-genre: "Thai BL Novel"
+genre: "Chinese Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781572966/CHINESE/Accidental_Love/Accidental_Love-1.jpg"
 
 file_type: "PDF"
 
-price: "4"
-price_promo: "2"
+price: "5"
+price_promo: "2.5"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=k3iWO"
+product_url: "https://payhip.com/b/k3iWO"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
+  - "graphic novels"
   - "novel"
   - "story"
-  - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
-  - "thai novel"
-  - "yaoi"
-  - "romance novel"
+  - "fiction"
+  - "literature"
+  - "digital novel"
+  - "chinese novel"
+  - "manga"
+  - "webnovel cn"
   - "ebook"
 ---

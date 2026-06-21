@@ -1,23 +1,23 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "2000 Years of Magic History in My Head Novel - English EPUB, PDF | Korean Romance Novel"
 
 description: |
-  ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
+  ✨ Heart-fluttering K-Romance 🇰🇷💕 — sweet, modern love stories perfect for K-Drama fans.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📌 DIGITAL PRODUCT — INSTANT DOWNLOAD
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  This is a digital E-book (PDF) — not a physical printed book.
+  This is a digital E-book (PDF & EPUB) — not a physical printed book.
   No shipping required. Your files are available immediately after purchase.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
-  🎭 Genre   : Thai BL Novel
-  💾 Format  : PDF
+  📚 Title   : 2000 Years of Magic History in My Head
+  🎭 Genre   : Korean Romance Novel
+  💾 Format  : PDF & EPUB
   🌍 Language: English
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -50,31 +50,31 @@ description: |
   🏷️ TAGS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
-  #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
+  #KoreanRomanceNovel #KRomance #KoreanRomance #KoreanLoveStory #SweetRomance #KDramaNovel #AsianRomance
 
-genre: "Thai BL Novel"
+genre: "Korean Romance Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573092/KOREAN%20ROMANCE/2000%20Years%20of%20Magic%20History%20in%20My%20Head/2000_Years_of_Magic_History_in_My_Head-1.jpg"
 
-file_type: "PDF"
+file_type: "PDF & EPUB"
 
-price: "4"
-price_promo: "2"
+price: "5"
+price_promo: "2.5"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=30og8"
+product_url: "https://payhip.com/b/30og8"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
+  - "english novels"
   - "novel"
   - "story"
-  - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
-  - "thai novel"
-  - "yaoi"
+  - "fiction"
+  - "literature"
+  - "digital novel"
+  - "korean novel"
   - "romance novel"
+  - "manhwa"
   - "ebook"
 ---

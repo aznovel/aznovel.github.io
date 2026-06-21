@@ -1,7 +1,7 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "Adore Khun Jae Like Crazy By Thek34 - English PDF | Thai GL Novel"
 
 description: |
   ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
@@ -15,7 +15,7 @@ description: |
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
+  📚 Title   : Adore Khun Jae Like Crazy By Thek34
   🎭 Genre   : Thai BL Novel
   💾 Format  : PDF
   🌍 Language: English
@@ -52,29 +52,29 @@ description: |
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
   #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
 
-genre: "Thai BL Novel"
+genre: "Thai GL Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781572992/GL%20BANNED/Adore%20Khun%20Jae%20Like%20Crazy%20By%20Thek34/Adore_Khun_Jae_Like_Crazy_by_THEK34.jpg"
 
 file_type: "PDF"
 
 price: "4"
 price_promo: "2"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=bTDPW"
+product_url: "https://payhip.com/b/bTDPW"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
+  - "Girls Love Novel"
   - "novel"
-  - "story"
+  - "Romance Yuri Story"
+  - "fiction"
   - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
+  - "Thai GL Novel"
   - "thai novel"
-  - "yaoi"
+  - "Asian Romance Novel"
   - "romance novel"
   - "ebook"
 ---

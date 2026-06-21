@@ -1,23 +1,23 @@
 ---
 layout: novel
 
-title: "2moons Novel - English PDF | Thai BL Novel"
+title: "Accidentally in Love_ The Witch, the Knight, and the Love Potion Slipup Novel - English EPUB, PDF | Japanese Light Novel"
 
 description: |
-  ✨ Romantic boys love stories from Thailand 🇹🇭 — heartfelt, emotional, and beautifully written.
+  ✨ From anime-inspired light novels to Japanese literary classics 🇯🇵 — perfect for anime & manga fans.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📌 DIGITAL PRODUCT — INSTANT DOWNLOAD
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  This is a digital E-book (PDF) — not a physical printed book.
+  This is a digital E-book (PDF & EPUB) — not a physical printed book.
   No shipping required. Your files are available immediately after purchase.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   📖 PRODUCT DETAILS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📚 Title   : 2moons
-  🎭 Genre   : Thai BL Novel
-  💾 Format  : PDF
+  📚 Title   : Accidentally in Love_ The Witch, the Knight, and the Love Potion Slipup
+  🎭 Genre   : Japanese Novel
+  💾 Format  : PDF & EPUB
   🌍 Language: English
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -35,7 +35,7 @@ description: |
   🤖 Android           → Lithium, Moon+ Reader, Google Play Books
   💻 PC / Mac / Laptop → Calibre, Adobe Digital Editions, Sigil
   
-  💡 Note: This is a text-based novel — not a manga or manhwa.
+  💡 Note: This is a text-based Light Novel — not a manga or manhwa.
   
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   ✨ MORE FROM OUR STORE
@@ -50,31 +50,31 @@ description: |
   🏷️ TAGS
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   #DigitalNovel #InstantDownload #PDFNovel #EPUBNovel #EbookDownload #AsianNovel #DigitalBook #ReadingCommunity #BookLovers
-  #ThaiBLNovel #ThaiBL #BoysLoveNovel #ThaiYaoi #BLNovel #ThaiBoysLove #AsianBL #ThaiRomance
+  #JapaneseNovel #JapaneseFiction #JapaneseLightNovel #LightNovel #JapaneseLiterature #AnimeLightNovel #AsianFiction
 
-genre: "Thai BL Novel"
+genre: "Japanese Novel"
 
-cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781573404/THAI%20BL%20NOVEL/2moons/2moons-1.png"
+cover: "https://res.cloudinary.com/driebl5st/image/upload/v1781572998/JAPAN/Accidentally%20in%20Love_%20The%20Witch%2C%20the%20Knight%2C%20and%20the%20Love%20Potion%20Slipup/Accidentally_in_Love__The_Witch_the_Knight_and_the_Love_Potion_Slipup-1.jpg"
 
-file_type: "PDF"
+file_type: "PDF & EPUB"
 
-price: "4"
-price_promo: "2"
+price: "5"
+price_promo: "2.5"
 
-checkout_url: "https://payhip.com/buy?link=4KH3Z"
-product_url: "https://payhip.com/b/4KH3Z"
+checkout_url: "https://payhip.com/buy?link=SJ5I7"
+product_url: "https://payhip.com/b/SJ5I7"
 tags:
   - "light novel"
   - "web novel"
   - "books"
-  - "boys love"
+  - "graphic novels"
   - "novel"
   - "story"
-  - "LGBTQ Love Story"
-  - "BL Romance Story"
-  - "Thai BL Novel"
-  - "thai novel"
-  - "yaoi"
-  - "romance novel"
+  - "fiction"
+  - "literature"
+  - "digital"
+  - "japanese novel"
+  - "manga"
+  - "manhwa"
   - "ebook"
 ---
