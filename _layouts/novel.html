@@ -73,7 +73,7 @@
         "@type": "BreadcrumbList",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "AZNovel", "item": "https://aznovel.com" },
-          { "@type": "ListItem", "position": 2, "name": "{{ page.genre }}", "item": "{{ site.url }}/genre/{{ page.genre | slugify }}" },
+          { "@type": "ListItem", "position": 2, "name": "{{ page.genre }}", "item": "{{ site.url }}/?genre={{ page.genre | url_encode }}" },
           { "@type": "ListItem", "position": 3, "name": "{{ page.title }}", "item": "{{ page.url | absolute_url }}" }
         ]
       }
@@ -109,7 +109,7 @@
       <a href="https://aznovel.com" target="_blank" rel="noopener" class="az-btn" title="AZNovel Main Store">
         🌐 AZNovel.com
       </a>
-      <a href="{{ site.url }}/products/" class="browse-btn">Browse All</a>
+      <a href="{{ site.url }}/" class="browse-btn">Browse All</a>
     </div>
   </nav>
 
@@ -120,7 +120,7 @@
     <div class="wrap">
       <a href="https://aznovel.com" target="_blank" rel="noopener">AZNovel.com</a>
       <span>›</span>
-      <a href="{{ site.url }}/genre/{{ page.genre | slugify }}">{{ page.genre }}</a>
+      <a href="{{ site.url }}/?genre={{ page.genre | url_encode }}">{{ page.genre }}</a>
       <span>›</span>
       <span aria-current="page">{{ page.title }}</span>
     </div>
@@ -164,7 +164,7 @@
         <div class="info-col">
 
           <!-- Genre -->
-          <a href="{{ site.url }}/genre/{{ page.genre | slugify }}" class="genre-pill" itemprop="genre">
+          <a href="{{ site.url }}/?genre={{ page.genre | url_encode }}" class="genre-pill" itemprop="genre">
             {{ page.genre }}
           </a>
 
@@ -313,7 +313,7 @@
       {% if page.tags %}
       <section class="tags-section" aria-label="Tags">
         {% for tag in page.tags %}
-        <a href="{{ site.url }}/tag/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+        <a href="{{ site.url }}/?q={{ tag | url_encode }}" class="tag">{{ tag }}</a>
         {% endfor %}
       </section>
       {% endif %}
