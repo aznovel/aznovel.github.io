@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% assign novels = site.pages | where: "layout", "novel" | sort: "title" %}[{% for n in novels %}{"title":{{ n.title | jsonify }},"genre":{{ n.genre | default: "" | jsonify }},"cover":{{ n.cover | default: "" | jsonify }},"price":{{ n.price | default: "" | jsonify }},"promo":{{ n.price_promo | default: "" | jsonify }},"url":{{ n.url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]

@@ -1,0 +1,683 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AZNovel — Premium Digital Novels | Instant Download</title>
+  <meta name="description" content="Browse 1900+ premium digital novels. PDF & EPUB format. Instant download after purchase. Find your next great read at AZNovel.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ site.url }}/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AZNovel — Premium Digital Novels">
+  <meta property="og:description" content="Browse 1900+ premium digital novels. Instant download. PDF & EPUB.">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:site_name" content="AZNovel">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AZNovel",
+    "url": "{{ site.url }}",
+    "description": "Premium digital novels — instant download after purchase.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "sameAs": ["https://aznovel.com"]
+  }
+  </script>
+
+  <style>
+    /* ── Tokens ─────────────────────────── */
+    :root {
+      --navy:    #1a2e4a;
+      --navy-dk: #0f1e30;
+      --blue:    #2563eb;
+      --green:   #16a34a;
+      --red:     #dc2626;
+      --orange:  #ea580c;
+      --gold:    #d97706;
+      --bg:      #f7f8fc;
+      --card:    #ffffff;
+      --text:    #111827;
+      --muted:   #6b7280;
+      --border:  #e5e7eb;
+      --serif:   Georgia, serif;
+      --sans:    -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      --radius:  10px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); }
+    a    { text-decoration: none; color: inherit; }
+
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── AZ Strip ───────────────────────── */
+    .az-strip {
+      background: #0f172a;
+      color: rgba(255,255,255,.6);
+      font-size: .75rem;
+      text-align: center;
+      padding: 5px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .az-strip a { color: #93c5fd; font-weight: 700; }
+    .az-strip a:hover { color: #bfdbfe; }
+    .az-strip-sep { color: rgba(255,255,255,.25); }
+
+    /* ── Topbar ─────────────────────────── */
+    .topbar {
+      background: var(--navy-dk);
+      padding: 13px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand { font-size: 1.15rem; font-weight: 800; color: #fff; }
+    .topbar-right { display: flex; align-items: center; gap: 10px; }
+    .az-btn {
+      font-size: .8rem; font-weight: 600;
+      color: #93c5fd;
+      border: 1px solid rgba(147,197,253,.35);
+      padding: 5px 12px; border-radius: 20px;
+      transition: all .2s;
+    }
+    .az-btn:hover { color: #bfdbfe; border-color: rgba(147,197,253,.6); }
+
+    /* ── Hero ───────────────────────────── */
+    .hero {
+      background: linear-gradient(150deg, #1e3a5f 0%, #0f1e30 100%);
+      padding: 52px 20px 44px;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.2);
+      color: rgba(255,255,255,.75);
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+    .hero-sub {
+      color: rgba(255,255,255,.6);
+      font-size: .97rem;
+      margin-bottom: 28px;
+    }
+
+    /* Search bar */
+    .search-box {
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 15px 52px 15px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      background: #fff;
+      color: var(--text);
+      box-shadow: 0 4px 24px rgba(0,0,0,.25);
+      outline: none;
+    }
+    .search-box input:focus { box-shadow: 0 4px 24px rgba(0,0,0,.3), 0 0 0 3px rgba(37,99,235,.4); }
+    .search-icon {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.2rem;
+      pointer-events: none;
+    }
+
+    /* ── Stats bar ──────────────────────── */
+    .stats-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 0;
+    }
+    .stats-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .result-count {
+      font-size: .85rem;
+      color: var(--muted);
+    }
+    .result-count strong { color: var(--text); }
+
+    /* ── Genre filters ──────────────────── */
+    .genre-wrap {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .genre-btn {
+      font-size: .75rem;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--muted);
+      cursor: pointer;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+    .genre-btn:hover  { border-color: var(--blue); color: var(--blue); }
+    .genre-btn.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+
+    /* ── Main layout ────────────────────── */
+    .main { padding: 24px 0 60px; }
+
+    /* ── Novel grid ─────────────────────── */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    /* ── Novel card ─────────────────────── */
+    .novel-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: transform .2s, box-shadow .2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .novel-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(0,0,0,.12);
+    }
+
+    .card-cover {
+      position: relative;
+      background: linear-gradient(150deg, #1e3a5f, #0f1e30);
+      aspect-ratio: 2/3;
+      overflow: hidden;
+    }
+    .card-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity .3s;
+    }
+    .card-cover img[data-src] { opacity: 0; }
+    .card-cover img.loaded    { opacity: 1; }
+
+    .sale-ribbon {
+      position: absolute;
+      top: 8px; right: 8px;
+      background: var(--red);
+      color: #fff;
+      font-size: .62rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .card-body {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+
+    .card-genre {
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--blue);
+    }
+
+    .card-title {
+      font-family: var(--serif);
+      font-size: .9rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--text);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-price {
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .price-promo { font-size: .95rem; font-weight: 800; color: var(--green); }
+    .price-orig  { font-size: .75rem; color: var(--muted); text-decoration: line-through; }
+    .price-only  { font-size: .95rem; font-weight: 700; color: var(--navy); }
+
+    .card-buy {
+      display: block;
+      background: var(--orange);
+      color: #fff;
+      text-align: center;
+      padding: 8px;
+      font-size: .8rem;
+      font-weight: 700;
+      border-radius: 6px;
+      margin: 8px 12px 12px;
+      transition: background .2s;
+    }
+    .card-buy:hover { background: #c2410c; }
+
+    /* ── States ─────────────────────────── */
+    .loading-state, .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+    .loading-state .spinner {
+      width: 40px; height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--blue);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty-state { font-size: 1rem; }
+    .empty-state strong { display: block; font-size: 1.2rem; color: var(--text); margin-bottom: 6px; }
+
+    /* ── Pagination ─────────────────────── */
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 36px;
+      flex-wrap: wrap;
+    }
+    .page-btn {
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--card);
+      color: var(--text);
+      font-size: .85rem;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .page-btn:hover    { border-color: var(--blue); color: var(--blue); }
+    .page-btn.active   { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .page-btn:disabled { opacity: .4; cursor: not-allowed; }
+    .page-info { font-size: .82rem; color: var(--muted); }
+
+    /* ── Footer ─────────────────────────── */
+    .footer { background: var(--navy-dk); padding: 28px 0 20px; margin-top: 40px; }
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      margin-bottom: 16px;
+    }
+    .footer-logo { font-size: 1.1rem; font-weight: 800; color: #fff; display: block; margin-bottom: 6px; }
+    .footer-tag  { font-size: .78rem; color: rgba(255,255,255,.4); }
+    .footer-links { display: flex; flex-direction: column; gap: 8px; text-align: right; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.5); transition: color .2s; }
+    .footer-links a:hover { color: #fff; }
+    .footer-bottom { text-align: center; font-size: .75rem; color: rgba(255,255,255,.3); }
+    .footer-bottom a { color: rgba(255,255,255,.5); }
+
+    /* ── Responsive ─────────────────────── */
+    @media (max-width: 640px) {
+      .hero h1    { font-size: 1.7rem; }
+      .grid       { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .stats-inner{ flex-direction: column; align-items: flex-start; }
+      .az-btn     { display: none; }
+      .footer-inner { flex-direction: column; }
+      .footer-links { text-align: left; flex-direction: row; flex-wrap: wrap; gap: 12px; }
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── AZ Strip ── -->
+  <div class="az-strip">
+    <span>🌐 Part of</span>
+    <a href="https://aznovel.com" target="_blank" rel="noopener">AZNovel.com</a>
+    <span class="az-strip-sep">·</span>
+    <a href="https://aznovel.com" target="_blank" rel="noopener">Visit Main Store →</a>
+  </div>
+
+  <!-- ── Topbar ── -->
+  <nav class="topbar">
+    <a href="{{ site.url }}/" class="brand">📚 AZNovel Digital</a>
+    <div class="topbar-right">
+      <a href="https://aznovel.com" target="_blank" rel="noopener" class="az-btn">🌐 AZNovel.com</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-eyebrow">1900+ Digital Novels</div>
+    <h1>Find Your Next Great Read</h1>
+    <p class="hero-sub">PDF &amp; EPUB · Instant download · Read on any device</p>
+    <div class="search-box">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Search by title or genre…"
+        autocomplete="off"
+        aria-label="Search novels"
+      >
+      <span class="search-icon">🔍</span>
+    </div>
+  </section>
+
+  <!-- ── Stats + Genre filters ── -->
+  <div class="stats-bar">
+    <div class="wrap stats-inner">
+      <div class="result-count" id="result-count">Loading novels…</div>
+      <div class="genre-wrap" id="genre-filters" role="group" aria-label="Filter by genre"></div>
+    </div>
+  </div>
+
+  <!-- ── Main ── -->
+  <main class="main">
+    <div class="wrap">
+      <!-- Loading -->
+      <div class="loading-state" id="loading">
+        <div class="spinner"></div>
+        <p>Loading novel catalog…</p>
+      </div>
+
+      <!-- Grid -->
+      <div class="grid" id="novel-grid" style="display:none"></div>
+
+      <!-- Empty -->
+      <div class="empty-state" id="empty-state" style="display:none">
+        <strong>No novels found</strong>
+        Try a different search term or clear the genre filter.
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       SEO: Hidden links — lets Google crawl all
+       product pages even without JavaScript
+  ═══════════════════════════════════════════ -->
+  <div style="position:absolute;left:-9999px;width:1px;overflow:hidden" aria-hidden="true">
+    {% assign novels = site.pages | where: "layout", "novel" | sort: "title" %}
+    {% for n in novels %}
+    <a href="{{ n.url | absolute_url }}">{{ n.title }}</a>
+    {% endfor %}
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <div>
+          <a href="https://aznovel.com" class="footer-logo" target="_blank" rel="noopener">🌐 AZNovel.com</a>
+          <p class="footer-tag">Premium digital novels — instant download after purchase.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://aznovel.com" target="_blank" rel="noopener">Main Store</a>
+          <a href="{{ site.url }}/">All Novels</a>
+          <a href="https://aznovel.com/contact" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © {{ site.time | date: "%Y" }}
+        <a href="https://aznovel.com" target="_blank" rel="noopener">AZNovel.com</a>
+        — All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  (() => {
+    const PER_PAGE   = 24;
+    const SEARCH_URL = '{{ "/search.json" | absolute_url }}';
+
+    let allNovels    = [];
+    let filtered     = [];
+    let currentPage  = 1;
+    let activeGenre  = 'All';
+    let searchQuery  = '';
+
+    const grid       = document.getElementById('novel-grid');
+    const loading    = document.getElementById('loading');
+    const empty      = document.getElementById('empty-state');
+    const countEl    = document.getElementById('result-count');
+    const pagination = document.getElementById('pagination');
+    const searchEl   = document.getElementById('search-input');
+    const genreWrap  = document.getElementById('genre-filters');
+
+    /* ── Fetch data ─────────────────────── */
+    fetch(SEARCH_URL)
+      .then(r => r.json())
+      .then(data => {
+        allNovels = data;
+        loading.style.display = 'none';
+        grid.style.display    = '';
+        // Parse URL params FIRST so genre button renders as active
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('genre')) activeGenre  = decodeURIComponent(params.get('genre'));
+        if (params.get('q'))     { searchEl.value = decodeURIComponent(params.get('q')); searchQuery = searchEl.value.toLowerCase(); }
+        buildGenreFilters();
+        applyFilters();
+      })
+      .catch(() => {
+        loading.innerHTML = '<p>Failed to load novels. Please refresh.</p>';
+      });
+
+    /* URL params parsed inside fetch callback above */
+
+    /* ── Genre filters ──────────────────── */
+    function buildGenreFilters() {
+      const genres = ['All', ...new Set(allNovels.map(n => n.genre).filter(Boolean).sort())];
+      genreWrap.innerHTML = '';
+      genres.forEach(g => {
+        const btn = document.createElement('button');
+        btn.className  = 'genre-btn' + (g === activeGenre ? ' active' : '');
+        btn.textContent = g;
+        btn.addEventListener('click', () => {
+          activeGenre = g;
+          currentPage = 1;
+          document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          applyFilters();
+        });
+        genreWrap.appendChild(btn);
+      });
+    }
+
+    /* ── Search input ───────────────────── */
+    let debounceTimer;
+    searchEl.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        searchQuery = searchEl.value.toLowerCase().trim();
+        currentPage = 1;
+        applyFilters();
+      }, 250);
+    });
+
+    /* ── Filter ─────────────────────────── */
+    function applyFilters() {
+      filtered = allNovels.filter(n => {
+        const matchGenre  = activeGenre === 'All' || n.genre === activeGenre;
+        const matchSearch = !searchQuery ||
+          (n.title  && n.title.toLowerCase().includes(searchQuery)) ||
+          (n.genre  && n.genre.toLowerCase().includes(searchQuery));
+        return matchGenre && matchSearch;
+      });
+      renderGrid();
+      renderPagination();
+      updateCount();
+    }
+
+    /* ── Render grid ────────────────────── */
+    function renderGrid() {
+      if (filtered.length === 0) {
+        grid.style.display  = 'none';
+        empty.style.display = '';
+        pagination.innerHTML = '';
+        return;
+      }
+      empty.style.display = 'none';
+      grid.style.display  = '';
+
+      const start = (currentPage - 1) * PER_PAGE;
+      const page  = filtered.slice(start, start + PER_PAGE);
+
+      grid.innerHTML = page.map(n => {
+        const hasPromo = n.promo && n.promo !== '';
+        const price = hasPromo
+          ? `<span class="price-promo">$${n.promo}</span><span class="price-orig">$${n.price}</span>`
+          : `<span class="price-only">$${n.price}</span>`;
+        return `
+          <div class="novel-card">
+            <a href="${n.url}" class="card-cover">
+              ${hasPromo ? '<span class="sale-ribbon">SALE</span>' : ''}
+              <img
+                data-src="${n.cover}"
+                alt="${escHtml(n.title)} cover"
+                loading="lazy"
+                width="200" height="300"
+              >
+            </a>
+            <div class="card-body">
+              <div class="card-genre">${escHtml(n.genre || '')}</div>
+              <div class="card-title">${escHtml(n.title)}</div>
+              <div class="card-price">${price}</div>
+            </div>
+            <a href="${n.url}" class="card-buy">🛒 Buy Now</a>
+          </div>`;
+      }).join('');
+
+      lazyLoad();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    /* ── Pagination ─────────────────────── */
+    function renderPagination() {
+      const totalPages = Math.ceil(filtered.length / PER_PAGE);
+      if (totalPages <= 1) { pagination.innerHTML = ''; return; }
+
+      let html = `
+        <button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?'disabled':''}>← Prev</button>`;
+
+      const range = pageRange(currentPage, totalPages);
+      range.forEach(p => {
+        if (p === '…') {
+          html += `<span class="page-info">…</span>`;
+        } else {
+          html += `<button class="page-btn ${p===currentPage?'active':''}" onclick="goPage(${p})">${p}</button>`;
+        }
+      });
+
+      html += `
+        <button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===totalPages?'disabled':''}>Next →</button>
+        <span class="page-info">Page ${currentPage} of ${totalPages}</span>`;
+
+      pagination.innerHTML = html;
+    }
+
+    function pageRange(current, total) {
+      if (total <= 7) return Array.from({length: total}, (_,i) => i+1);
+      if (current <= 4) return [1,2,3,4,5,'…',total];
+      if (current >= total - 3) return [1,'…',total-4,total-3,total-2,total-1,total];
+      return [1,'…',current-1,current,current+1,'…',total];
+    }
+
+    window.goPage = function(p) {
+      currentPage = p;
+      renderGrid();
+      renderPagination();
+    };
+
+    /* ── Count label ────────────────────── */
+    function updateCount() {
+      const q = searchQuery ? ` for "<strong>${escHtml(searchEl.value)}</strong>"` : '';
+      const g = activeGenre !== 'All' ? ` in <strong>${escHtml(activeGenre)}</strong>` : '';
+      countEl.innerHTML = `<strong>${filtered.length.toLocaleString()}</strong> novels${q}${g}`;
+    }
+
+    /* ── Lazy load images ───────────────── */
+    function lazyLoad() {
+      const imgs = grid.querySelectorAll('img[data-src]');
+      if ('IntersectionObserver' in window) {
+        const obs = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              const img = e.target;
+              img.src = img.dataset.src;
+              img.removeAttribute('data-src');
+              img.onload = () => img.classList.add('loaded');
+              obs.unobserve(img);
+            }
+          });
+        }, { rootMargin: '200px' });
+        imgs.forEach(img => obs.observe(img));
+      } else {
+        imgs.forEach(img => { img.src = img.dataset.src; img.classList.add('loaded'); });
+      }
+    }
+
+    /* ── Helpers ────────────────────────── */
+    function escHtml(str) {
+      return String(str)
+        .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+  })();
+  </script>
+
+</body>
+</html>
